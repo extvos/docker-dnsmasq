@@ -2,7 +2,7 @@ FROM extvos/alpine:3.6
 MAINTAINER  "Mingcai SHEN <archsh@gmail.com>"
 
 RUN apk update \
-    && apk add dnsmasq dnsmasq-doc
+    && apk add --no-cache  dnsmasq dnsmasq-doc
 
 VOLUME /etc/dnsmasq.d/
 
