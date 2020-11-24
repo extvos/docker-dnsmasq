@@ -1,4 +1,4 @@
-FROM extvos/alpine:3.6
+FROM extvos/alpine:latest
 MAINTAINER  "Mingcai SHEN <archsh@gmail.com>"
 
 RUN apk update \
